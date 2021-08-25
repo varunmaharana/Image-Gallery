@@ -96,7 +96,7 @@ button {
     background-color: peachpuff;
 }
 
-button:hover {
+button:active {
     background-color: brown;
     color: peachpuff;
     border-color: peachpuff;
