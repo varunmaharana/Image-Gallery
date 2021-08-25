@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #9EF5CF;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 50px 0px 40px 0px;
+    font-family: 'Pacifico', cursive;
+    color: #E8FFB1;
+    text-shadow: 5px 0 #232931;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 5px 10px 5px 10px;
+    background-color: #0278AE;
+    color: #E8FFB1;
+    font-family: 'Montserrat', sans-serif;
+    height: 20px;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #0278AE;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0278AE;
+    padding-top: 50px;
+    height: 200px;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #E8FFB1;
+}
+
+a {
+    color: #88f5c6;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #51DACF;
+}
+
+.cpr {
+    font-size: 10px;
+}
+
+.main-body {
+    text-align: center;
+    top: 159px;
+    
+}
+
+.main {
+    text-align: justify;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 500px;
+    overflow: hidden;
+    background-color: #c4ffe5;
+}
+
+button {
+    width: 100px;
+    height: 200px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: brown;
+    font-size: 25px;
+    color: brown;
+    background-color: peachpuff;
+}
+
+button:hover {
+    background-color: brown;
+    color: peachpuff;
+    border-color: peachpuff;
+}
+
+button:active {
+    background-color: brown;
+    color: peachpuff;
+    border-color: peachpuff;
+
+}
+
+img {
+    display: inline-block;
+    width: auto;
+    height: 600px;
+    margin: auto;
+}
+
+#next {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    right: 0px;
+    top: 325px;
+}
+
+#prev {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    top: 325px;
+}
