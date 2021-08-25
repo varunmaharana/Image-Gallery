@@ -78,13 +78,15 @@ figure {
     margin: auto;
     width: 85%;
     height: 500px;
-    overflow: hidden;
+    overflow: auto;
     background-color: #c4ffe5;
 }
 
 button {
-    width: 100px;
-    height: 200px;
+    width: 75px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 200px;
     border-radius: 5px;
     border-style: solid;
     border-width: 3px;
@@ -100,17 +102,10 @@ button:hover {
     border-color: peachpuff;
 }
 
-button:active {
-    background-color: brown;
-    color: peachpuff;
-    border-color: peachpuff;
-
-}
-
 img {
     display: inline-block;
     width: auto;
-    height: 600px;
+    height: auto;
     margin: auto;
 }
 
@@ -119,7 +114,7 @@ img {
     margin: 0;
     position: absolute;
     right: 0px;
-    top: 325px;
+    top: 375px;
 }
 
 #prev {
@@ -127,5 +122,5 @@ img {
     margin: 0;
     position: absolute;
     left: 0px;
-    top: 325px;
+    top: 375px;
 }
